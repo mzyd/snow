@@ -79,16 +79,18 @@ class Index extends Component {
               <PieEcharts />
             </div>
           </Col>
-          <Col span={12}>
-            <div className='base-style'>
+
+          {/* <Col span={12}>
+              <div className='base-style'>
               <ScatterEcharts />
-            </div>
-          </Col>
-          <Col span={12}>
-            <div className='base-style'>
+              </div>
+              </Col>
+              <Col span={12}>
+              <div className='base-style'>
               <PictorialBarEcharts />
-            </div>
-          </Col>
+              </div>
+              </Col> */}
+
         </Row>
       </Layout>
     )

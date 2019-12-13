@@ -11,14 +11,6 @@ import {
 /* import Abc from './components/Abc' */
 import loadable from './utils/loadable'
 
-
-/* const routes = [
- *   { title: 'home',
- *     to: '/',
- *     component: Abc
- *   }
- * ] */
-
 // 公共模块
 const DefaultLayout = loadable(() => import(/* webpackChunkName: 'default' */ './containers'))
 
