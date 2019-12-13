@@ -40,6 +40,8 @@ class DefaultLayout extends Component {
         this.props.history.push('/login')
         message.success('登出成功!')
     }
+
+    // 获取用户角色
     getMenu = menu => {
         let newMenu,
             auth = JSON.parse(localStorage.getItem('user')).auth
