@@ -6,8 +6,8 @@ import '@/style/view-style/index.scss'
 import BarEcharts from './bar.jsx'
 import PieEcharts from './pie.jsx'
 import LineEcharts from './line.jsx'
-import ScatterEcharts from './scatter.jsx'
-import PictorialBarEcharts from './pictorialBar.jsx'
+/* import ScatterEcharts from './scatter.jsx' */
+/* import PictorialBarEcharts from './pictorialBar.jsx' */
 
 class Index extends Component {
   fullToggle = () => {
@@ -32,7 +32,7 @@ class Index extends Component {
             <div className='base-style qq'>
               <Icon type='desktop' className='icon-style' />
               <div>
-                <span>366</span>
+                <span>36602</span>
                 <div>矿机</div>
               </div>
             </div>
@@ -50,7 +50,7 @@ class Index extends Component {
             <div className='base-style weibo'>
               <Icon type='deployment-unit' className='icon-style' />
               <div>
-                <span>689</span>
+                <span>68</span>
                 <div>节点</div>
               </div>
             </div>

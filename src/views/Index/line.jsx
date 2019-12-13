@@ -13,7 +13,7 @@ class Line extends Component {
                 trigger: 'axis'
             },
             legend: {
-                data: ['邮件营销', '联盟广告', '视频广告']
+                data: ['新增用户', '新增节点', '新增合伙人']
             },
             grid: {
                 left: '3%',
@@ -36,17 +36,17 @@ class Line extends Component {
             },
             series: [
                 {
-                    name: '邮件营销',
+                    name: '新增用户',
                     type: 'line',
                     data: [120, 132, 101, 134, 90, 230, 210]
                 },
                 {
-                    name: '联盟广告',
+                    name: '新增节点',
                     type: 'line',
                     data: [220, 182, 191, 234, 290, 330, 310]
                 },
                 {
-                    name: '视频广告',
+                    name: '新增合伙人',
                     type: 'line',
                     data: [150, 232, 201, 154, 190, 330, 410]
                 }

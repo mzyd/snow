@@ -1,4 +1,6 @@
 import { combineReducers } from 'redux'
+import { MENU_TOGGLE } from '../constants/'
+
 
 const abc = (state = {}, action) => {
   switch(action.type) {
@@ -9,8 +11,23 @@ const abc = (state = {}, action) => {
   }
 }
 
+const defaultStore = {
+  menuToggle: false
+}
+
+const menuToggleReducer = (state = defaultStore, action) => {
+  switch (action.type) {
+    case MENU_TOGGLE:
+      return { ...state, menuToggle: !state.menuToggle }
+    default:
+      return state
+  }
+}
+
+
 const rootReducer = combineReducers({
   abc,
+  menuToggleReducer,
 })
 
 export default rootReducer

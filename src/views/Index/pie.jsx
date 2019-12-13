@@ -16,7 +16,7 @@ class Pie extends Component {
             legend: {
                 orient: 'vertical',
                 left: 'left',
-                data: ['直接访问', '邮件营销', '联盟广告', '视频广告', '搜索引擎']
+                data: ['在线设备', '离线设备', 'H1', 'X86', '虚拟机']
             },
             series: [
                 {
@@ -25,11 +25,11 @@ class Pie extends Component {
                     radius: '55%',
                     center: ['50%', '60%'],
                     data: [
-                        { value: 335, name: '直接访问' },
-                        { value: 310, name: '邮件营销' },
-                        { value: 234, name: '联盟广告' },
-                        { value: 135, name: '视频广告' },
-                        { value: 1548, name: '搜索引擎' }
+                        { value: 335, name: '在线设备' },
+                        { value: 310, name: '离线设备' },
+                        { value: 234, name: 'H1' },
+                        { value: 135, name: 'X86' },
+                        { value: 1548, name: '虚拟机' }
                     ],
                     itemStyle: {
                         emphasis: {

@@ -124,7 +124,7 @@ class DefaultLayout extends Component {
 }
 
 const stateToProp = state => ({
-  menuToggle: state.menuToggle
+  menuToggle: state.menuToggleReducer.menuToggle
 })
 
 const dispatchToProp = dispatch => ({
